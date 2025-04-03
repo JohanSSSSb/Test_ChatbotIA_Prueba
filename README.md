@@ -1,0 +1,6 @@
+Para desarrollar el proyecto, inicialmente realize la revision de cada uno de los requerimientos para saber el flujo del proceso que iba a realizar.
+Inicialmente normalice los datos empleando la libreria Pandas, sin embargo, no podia guardar la intedridad de los datos por como estaban ordenados. Me propuse de manera manual realizar la eliminacion de los caracteres especiales para no perder tiempo en el proceso de creacion de el modelo. 
+Seguidamente realize la creacion de un archivo llamado Entrenamiento.py donde cree el modelo que posteriormente se utilizaria.
+Finalmente en un nuevo archivo realize un archivo llamado chatbot, en el cual cargo el modelo y puedo realizar una consulta y clasificarla con su respuesta teniendo en cuenta la descripcion del problema.
+
+Como mejora, se prodria alimentar el dataset de una gran cantidad de nuevos datos que puedan ayudar a mejorar las respuestas a estos. Ademas, se pueden implementar herramientas que permitan una mayor eficiencia en el desarrollo como emplear servicios en la nube.
